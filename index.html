@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="vars.css">
+    <title>Cálculo de IMC</title>
+
+</head>
+
+<body>
+
+    <header class="contanier"">
+        <h1 class="contanier__title">Calculadora de IMC</h1>
+        <h2 class="contanier__subtitle">Índice de massa corporal</h2>
+    </header>
+
+    <main>
+        <section>
+
+            <div class="main__name">
+                <input class="input__name" type="text" id="name" required="required" pattern="[a-z\s]+$" placeholder="DIGITE SEU NOME">
+            </div>
+
+            <div class="main__weight">
+                <input class="input__weight" type="number" id="weight" placeholder="DIGITE SEU PESO">
+            </div>
+
+            <div class="main__height">
+                <input class="input__height" type="number" id="height" placeholder="DIGITE SUA ALTURA">
+            </div>
+
+            <div class="main__buttom">
+                <button class="main__buttom__data" onclick="generateData()">Gerar informações</button>
+            </div>
+            
+            <div class="data__result">
+                <ul></ul>
+                <span></span>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="baseboard">Desenvolvido por <strong>Davi Moraes</strong>.</footer>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>

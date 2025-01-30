@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: darkslategrey;
+}
+
+/* Header */
+
+.contanier__title{
+    color: var(--primaryColor);
+    background-color: var(--tertiaryColor);
+    font-family: var(--primaryFont);
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 9.2em
+}
+
+.contanier__subtitle{
+    text-align: center;
+    color: var(--secondaryColor);
+    background-color: var(--tertiaryColor);
+    font-family: var(--secondaryFont);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 9.2em
+}
+
+/* Main */
+
+.main__name{
+    text-align: center;
+    padding: 1% 0 0 0;
+    color: var(--secondaryColor);
+    font-size: 1.87rem;
+    font-family: var(--tertiaryFont);
+}
+
+.main__weight{
+    text-align: center;
+    padding: 1%;
+    color: var(--secondaryColor);
+    font-size: 1.87rem;
+    font-family: var(--tertiaryFont);
+}
+
+.main__height{
+    text-align: center;
+    padding: 0%;
+    color: var(--secondaryColor);
+    font-size: 1.87rem;
+    font-family: var(--tertiaryFont);
+}
+
+.input__name{
+    border: dashed;
+    border-radius: 10px;
+    font-size: 1.87rem;
+}
+
+.input__weight{
+    border: dashed;
+    border-radius: 10px;
+    font-size: 1.87rem;
+}
+
+.input__height{
+    border: dashed;
+    border-radius: 10px;
+    font-size: 1.87rem;
+}
+
+.main__buttom{
+    text-align: center;
+    color: var(--secondaryColor);
+    font-size: 1.87rem;
+    font-family: var(--tertiaryFont);
+}
+
+.main__buttom__data{
+    border: solid;
+    font-size: 1.25rem;
+    font-family: var(--tertiaryFont);
+    color: var(--tertiaryColor);
+}
+
+.data__result{
+    text-align: center;
+    font-family: var(--tertiaryFont);
+    color: var(--tertiaryColor);
+    background-color: var(--primaryColor);
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 12.2em
+}
+
+/* Footer */
+
+.baseboard{
+    text-align: center;
+    font-family: var(--tertiaryFont);
+    position: absolute;
+    bottom:0%;
+    width: 100%;
+    color: var(--secondaryColor);
+}
