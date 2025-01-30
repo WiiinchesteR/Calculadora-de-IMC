@@ -36,7 +36,7 @@ body{
     text-align: center;
     padding: 1% 0 0 0;
     color: var(--secondaryColor);
-    font-size: 1.87rem;
+    font-size: 1.5rem;
     font-family: var(--tertiaryFont);
 }
 
@@ -44,7 +44,7 @@ body{
     text-align: center;
     padding: 1%;
     color: var(--secondaryColor);
-    font-size: 1.87rem;
+    font-size: 1.5rem;
     font-family: var(--tertiaryFont);
 }
 
@@ -52,32 +52,32 @@ body{
     text-align: center;
     padding: 0%;
     color: var(--secondaryColor);
-    font-size: 1.87rem;
+    font-size: 1.5rem;
     font-family: var(--tertiaryFont);
 }
 
 .input__name{
     border: dashed;
     border-radius: 10px;
-    font-size: 1.87rem;
+    font-size: 1.5rem;
 }
 
 .input__weight{
     border: dashed;
     border-radius: 10px;
-    font-size: 1.87rem;
+    font-size: 1.5rem;
 }
 
 .input__height{
     border: dashed;
     border-radius: 10px;
-    font-size: 1.87rem;
+    font-size: 1.5rem;
 }
 
 .main__buttom{
     text-align: center;
     color: var(--secondaryColor);
-    font-size: 1.87rem;
+    font-size: 1.5rem;
     font-family: var(--tertiaryFont);
 }
 
@@ -96,7 +96,7 @@ body{
     border-radius: 30px;
     margin-left: auto;
     margin-right: auto;
-    width: 12.2em
+    width: 15.2em
 }
 
 /* Footer */
