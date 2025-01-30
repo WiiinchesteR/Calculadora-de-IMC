@@ -91,8 +91,8 @@ body{
 .data__result{
     text-align: center;
     font-family: var(--tertiaryFont);
-    color: var(--tertiaryColor);
-    background-color: var(--primaryColor);
+    color: white;
+    background-color: var(--tertiaryColor);
     border-radius: 30px;
     margin-left: auto;
     margin-right: auto;
